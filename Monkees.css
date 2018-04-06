@@ -25,6 +25,10 @@ h3 {
 	color: red;
 }	
 
+.boxed {
+  border: 1px solid green ;
+}
+
 table {
 		text-align: center;
 		width:100%;
@@ -77,6 +81,18 @@ form {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+
+
 input {
   width: 375px;
   display: block;
@@ -93,18 +109,6 @@ textarea#feedback {
   display: block;
 }
 
-button {
-  width: 100px;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  background: #09C;
-  color: #fff;
-  font-family: Tahoma, Geneva, sans-serif;
-  height: 30px;
-  border-radius: 15px;
-  border: 1p solid #999;
-}
 
 input.button:hover {
   background: #fff;
