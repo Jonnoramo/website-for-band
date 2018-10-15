@@ -16,8 +16,8 @@ Contaact and Booking form
  
 ## Tech Used
  ### Some the tech used includes:
-- [Sublime Text ](https://sublime-text.com)
-    - We use **Sublime Text ** to handle page routing, we also use it to make calls to the REST API and build custom directives
+- [Notepad plus](https://notepad-plus-plus.org)
+    - We use **Notepad plus** to handle page routing, we also use it to make calls to the REST API and build custom directives
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
 - [npm](https://www.npmjs.com/)
