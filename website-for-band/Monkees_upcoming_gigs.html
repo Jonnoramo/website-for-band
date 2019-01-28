@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--loading css styling and fonts-->
+  <link rel="stylesheet" type="text/css" href='static/bootstrap/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="static/css/Monkees.css">
+
+
+<!--loading jQuery, Bootstrap and js folder-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src='static/js/bootstrap.min.js'></script>
+  <script src="static/js/Monkees.js"></script>
+  <script src="static/js/app.js"></script>
+<title>Monkees Upcoming gigs</title>
+</head>
+<body>
+
+<style>
+body {
+		background-image:url("https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/monkees.jpg")
+}
+
+</style>
+<div id="navigation_container">
+ 
+<!-- the ribbon body -->
+ 
+      <div class="rectangle">
+
+
+<!-- the navigation links -->
+ 
+   <ul id="navigation">
+<li><a href="index.html">Homepage</a></li>
+<li><a href="Monkees_biography.html">Biography</a></li>
+<li><a href="Monkees_Discography.html">Discography</a></li>
+<li><a href="ContactandBookingForm.html">Bookings and contact Form</a></li>
+	</ul>
+	
+<!-- end container -->
+</div>
+
+
+		
+
+<h1>Upcoming gigs</h1>
+
+
+<button>Here is a list of the concerts from the Monkees coming up. Feel free to take a look and go the Bookings form to get your tickets</button>
+ 
+
+<div id="showBookingOptions">
+			<p class="firstColour textStyle-2">Have a look at the list of concerts:</p>
+			<span class="glyphicon glyphicon-plus-sign"></span> &nbsp;Book by:
+			<div id="bookingOptions">
+				<span ng-click="bookF('time')">Time</span><br>
+				<span ng-click="bookF('field')">Venue</span>
+			</div>
+<button>			
+<table>
+<table style=width:100%>
+<table border="1">
+ 
+  <tr>
+		<th>Venue</th>
+		<th>Date and Time</th>
+		<th>Cost</th>
+		<th>Availability</th>
+   </tr>
+	<tr>
+		<th>Wembley</th>
+		<th>Sunday 18th June 2.30PM</th>
+		<th>£9.99 per ticket</th>
+		<th>99 tickets left</th>
+	</tr>l
+	<tr>
+		<th>Hyde Park London</th>
+		<th>Saturday 8th July 3.00PM</th>
+		<th>£10.99 per ticket</th>
+		<th>200 tickets left</th>
+	</tr>
+	<tr>
+		<th>Bournemouth International Centre</th>
+		<th>Sunday 2nd July 6.30PM</th>
+		<th>£7.50 per ticket</th>
+		<th>150 tickets left</th>
+	</tr>
+	<tr>
+		<th>Newcastle City Hall</th>
+		<th>Friday 15th September 7.00PM</th>
+		<th>£9.50 per ticket</th>
+		<th>198 tickets left</th>
+	</tr>
+	<tr>
+		<th>RNCM Concert Hall</th>
+		<th>Friday 22nd September 5.30PM</th>
+		<th>£8.75 per ticket</th>
+		<th>169 tickets left</th>
+	</tr>
+	<tr>
+		<th>Portsmouth Guildhall</th>
+		<th>Sunday 20th August 6.00PM</th>
+		<th>£9.75 per ticket</th>
+		<th>75 tickets left</th>
+	</tr>
+	<tr>
+		<th>Royal Concert Hall</th>
+		<th>Sunday 22nd October 7.00PM</th>
+		<th>£7.99 per ticket</th>
+		<th>150 tickets left</th>
+	</tr>
+</button>	
+
+
+	
+	
+		
+</body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monkees Upcoming gigs</title>
+<link rel="stylesheet" type="text/css" href="Monkees.css">
+<script type="text/javascript" src="Monkees.js"></script>
+</head>
+<body>
+
+<style>
+body {
+		background-image:url("https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/monkees.jpg")
+}
+
+</style>
+<div id="navigation_container">
+ 
+<!-- the ribbon body -->
+ 
+      <div class="rectangle">
+
+
+<!-- the navigation links -->
+ 
+   <ul id="navigation">
+<li><a href="Monkees.html">Homepage</a></li>
+<li><a href="Monkees_biography.html">Biography</a></li>
+<li><a href="Monkees_Discography.html">Discography</a></li>
+<li><a href="ContactandBookingForm.html">Bookings and contact Form</a></li>
+	</ul>
+	
+<!-- end container -->
+</div>
+
+<a class="left carousel-control" href="#1carousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		
+		<a class="right carousel-control" href="#1carousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		
+
+<h1>Upcoming gigs</h1>
+
+
+<button>Here is a list of the concerts from the Monkees coming up. Feel free to take a look and go the Bookings form to get your tickets</button>
+ 
+
+<div id="showBookingOptions">
+			<p class="firstColour textStyle-2">Have a look at the list of concerts:</p>
+			<span class="glyphicon glyphicon-plus-sign"></span> &nbsp;Book by:
+			<div id="bookingOptions">
+				<span ng-click="bookF('time')">Time</span><br>
+				<span ng-click="bookF('field')">Venue</span>
+			</div>
+<button>			
+<table>
+<table style=width:100%>
+<table border="1">
+ 
+  <tr>
+		<th>Venue</th>
+		<th>Date and Time</th>
+		<th>Cost</th>
+		<th>Availability</th>
+   </tr>
+	<tr>
+		<th>Wembley</th>
+		<th>Sunday 18th June 2.30PM</th>
+		<th>£9.99 per ticket</th>
+		<th>99 tickets left</th>
+	</tr>l
+	<tr>
+		<th>Hyde Park London</th>
+		<th>Saturday 8th July 3.00PM</th>
+		<th>£10.99 per ticket</th>
+		<th>200 tickets left</th>
+	</tr>
+	<tr>
+		<th>Bournemouth International Centre</th>
+		<th>Sunday 2nd July 6.30PM</th>
+		<th>£7.50 per ticket</th>
+		<th>150 tickets left</th>
+	</tr>
+	<tr>
+		<th>Newcastle City Hall</th>
+		<th>Friday 15th September 7.00PM</th>
+		<th>£9.50 per ticket</th>
+		<th>198 tickets left</th>
+	</tr>
+	<tr>
+		<th>RNCM Concert Hall</th>
+		<th>Friday 22nd September 5.30PM</th>
+		<th>£8.75 per ticket</th>
+		<th>169 tickets left</th>
+	</tr>
+	<tr>
+		<th>Portsmouth Guildhall</th>
+		<th>Sunday 20th August 6.00PM</th>
+		<th>£9.75 per ticket</th>
+		<th>75 tickets left</th>
+	</tr>
+	<tr>
+		<th>Royal Concert Hall</th>
+		<th>Sunday 22nd October 7.00PM</th>
+		<th>£7.99 per ticket</th>
+		<th>150 tickets left</th>
+	</tr>
+</button>	
+
+
+	
+	
+		
+</body>
+>>>>>>> 20239c37d8f9aef3b1245369602558ff673bee9f
+</html>	
