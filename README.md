@@ -5,14 +5,21 @@
 This website is to try and encourage people to go and see concerts performed by the Monkees
  ### How does it work?
 It has details about the band, best singles and albums, and a list of concerts, then you type in your details and book your concert.
+You can also listen to some of your favourite songs by going to Discography page and singles chart and clicking play next to your song. There is a chat box so you can talk to other Monkees fans.
 
 ## Features
  ### Existing Features
-This website has a few songs you can listen to, images of the band.
-Biography
-List of grratest singles
-List of upcoming gigs
-Contaact and Booking form
+This website has a some of their greatest singles which you can listen to simply by clicking on the play button in thr cell next to song name in the Discography page, there are also images of the band, different members and their concerts.
+
+The Biography page tells you information about the 4 different members of the group and their picture
+
+There  is a list of greatest singles and greatest albums page where if you go to the singles table, you can listen to their songs.
+
+The list of upcoming gigs page tells you when their are future concerts available, where and how you can book.
+
+The Contact and Booking Form page is the form to book your tickes after you have chosen your concert by looking at the Monkees_Upcoming_gigs.
+
+The chat box in the homepage is so you can chat to other monkees fans and maybe arrange to see a concert together.
  
 ## Tech Used
  ### Some the tech used includes:
@@ -20,6 +27,8 @@ Contaact and Booking form
     - We use **Sublime Text** to handle page routing, we also use it to make calls to the REST API and build custom directives
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
+- [davenevins.com](http://davenevins.com/fttp/mp3/misc/monkees) 
+    - I have used the website above to copy the link to the address to create the song clips in the Discography page. 
 - [npm](https://www.npmjs.com/)
     - We use **npm** to help manage some of the dependencies in our application
 - [bower](https://bower.io/)
