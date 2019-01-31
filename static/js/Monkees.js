@@ -17,34 +17,6 @@ console.log(newProfile);
 var newProfile = profile.slice(12,16);
 console.log(newProfile);
 
-function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
-} 
-	
-var Peter Tork = {};
-Peter Tork.speak("Thanks for visiting our website");
-// Peter Tork says 'Thanks for visiting our website'
-
-<?
-session_start();
- 
-function loginForm(){
-    echo'
-    <div id="loginform">
-    <form action="index.php" method="post">
-        <p>Please enter your name to continue:</p>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" />
-        <input type="submit" name="enter" id="enter" value="Enter" />
-    </form>
-    </div>
-    ';
-}
- 
 if(isset($_POST['enter'])){
     if($_POST['name'] != ""){
         $_SESSION['name'] = stripslashes(htmlspecialchars($_POST['name']));
@@ -52,7 +24,8 @@ if(isset($_POST['enter'])){
     else{
         echo '<span class="error">Please type in a name</span>';
     }
-	
+}
+
 if(isset($_GET['logout'])){ 
      
     //Simple exit message
@@ -65,14 +38,10 @@ if(isset($_GET['logout'])){
 }
 
 //If user submits the form
-	$("#submitmsg").click(function(){	
-		var clientmsg = $("#usermsg").val();
-		$.post("post.php", {text: clientmsg});				
-		$("#usermsg").attr("value", "");
-		return false;
-	});
-}
-?>
-
-	
+    $("#submitmsg").click(function(){   
+        var clientmsg = $("#usermsg").val();
+        $.post("post.php", {text: clientmsg});              
+        $("#usermsg").attr("value", "");
+        return false;
+    });	
  

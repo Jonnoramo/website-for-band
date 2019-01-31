@@ -5,14 +5,7 @@ $(document).ready(function(){
     });
 
 
-
-    $('#search-btn').on('click',function(){
-        $('#search-bar').toggleClass('hidden')
-    });
-
-
-
-    $('#pic1').on('mouseover', function () {
+    $('#Monkees Cover1.jpg').on('mouseover', function () {
         $('#description1').slideDown('slow');
     });
 
