@@ -81,6 +81,10 @@ form {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
+#description1, #description2, #description3, #description4{
+    display: none;
+}
+
 button {
     background-color: #4CAF50; /* Green */
     border-style: : solid;
@@ -206,6 +210,8 @@ a {
   
     #loginform p { margin: 5px; }
   
+{box-sizing: border-box;}
+
 #chatbox {
     text-align:left;
     margin:0 auto;
@@ -231,5 +237,4 @@ a {
   
 .logout { float:right; }
   
-.msgln { margin:0 0 2px 0; }
-
+.msgln { margin:0 0 2px 0; 
