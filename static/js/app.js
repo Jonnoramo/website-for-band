@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
 
 
-    $('#Monkees Cover1.jpg').on('mouseover', function () {
+    $('#pic1').on('mouseover', function () {
         $('#description1').slideDown('slow');
     });
 
@@ -20,6 +20,13 @@ $(document).ready(function(){
     $('#pic3').on('mouseover', function () {
         $('#description3').slideDown('slow');
     });
+
+
+
+     $('#pic4').on('mouseover', function () {
+        $('#description4').slideDown('slow');
+    });
+
 
 
 });
