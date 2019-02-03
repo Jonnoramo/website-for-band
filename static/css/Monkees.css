@@ -2,7 +2,7 @@
 h1 {
 	text-align: center;
 	font-size: 48px;
-	color: #fff;
+	color: blue;
 	font-family: Callibri
 }
 
@@ -25,6 +25,14 @@ h3 {
 	color: red;
 }	
 
+hgroup {
+    background-color: yellow;
+    border-style: solid;
+    color: blue;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 14px
+}
 .boxed {
   border: 1px solid green ;
 }
