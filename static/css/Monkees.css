@@ -9,7 +9,7 @@ h1 {
 p {
 	text-align: left;
 	font-size: 32px;
-	color: red;
+	color: blue;
 	font-family:Italics
 }
 
@@ -94,7 +94,7 @@ form {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: yellow;
     border-style: : solid;
     color: white;
     padding: 15px 32px;
