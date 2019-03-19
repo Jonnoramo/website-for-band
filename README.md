@@ -2,24 +2,24 @@
  
 ## Overview
  ### What is this website for?
-This website is to try and encourage people to go and see concerts performed by the Monkees
+This website is to encourage people to go and see concerts performed by the Monkees
  ### How does it work?
-It has details about the band, best singles and albums, and a list of concerts, then you type in your details and book your concert.
-You can also listen to some of your favourite songs by going to Discography page and singles chart and clicking play next to your song. There is a chat box so you can talk to other Monkees fans.
+It has details about the band, their best singles and albums, and a list of their upcoming concerts, then you type in your details in the Contact and Booking Form, you can book your concert by clicking Submit.
+You can also listen to some of your favourite songs by going to the Discography page, then in the singles chart, you can click play to listen to the song. There is also chat box feature so you can talk to other Monkees fans.
 
 ## Features
  ### Existing Features
-This website has a some of their greatest singles which you can listen to simply by clicking on the play button in thr cell next to song name in the Discography page, there are also images of the band, different members and their concerts.
+This website has a some of The Monkees' greatest singles which you can listen to simply by clicking on the play button in the cell next to song name in the Discography page, there are also images of the band, different members and their upcoming concerts.
 
 The Biography page tells you information about the 4 different members of the group and their picture
 
-There  is a list of greatest singles and greatest albums page where if you go to the singles table, you can listen to their songs.
+The Discography page lets you view the bands greatest singles and albums, and listen to their songs by clicking the play button.
 
-The list of upcoming gigs page tells you when their are future concerts available, where and how you can book.
+The list of upcoming gigs page tells you when their are future concerts available, where they are, the cost and how you can book.
 
 The Contact and Booking Form page is the form to book your tickes after you have chosen your concert by looking at the Monkees_Upcoming_gigs.
 
-The chat box in the homepage is so you can chat to other monkees fans and maybe arrange to see a concert together.
+There is also a chat box feature in the bottom of the homepage so you can chat to other monkees fans, and maybe arrange to see a concert together.
  
 ## Tech Used
  ### Some the tech used includes:
